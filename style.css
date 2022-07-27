@@ -1,3 +1,6 @@
+.brightness{
+    filter: brightness(50%);
+}
 .courses-button{
     margin-left: 45%;
     margin-top: 5%;
