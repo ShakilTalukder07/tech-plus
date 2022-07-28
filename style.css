@@ -14,8 +14,12 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.company-header{
+    padding-top: 5;
+    padding-bottom: 5;
+}
 @media screen and (max-width:992px) {
-    .company{
+    .company-header{
         display: none;
     }
     .course-sections{
