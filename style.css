@@ -15,8 +15,8 @@
     justify-content: center;
 }
 .company-header{
-    padding-top: 5;
-    padding-bottom: 5;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 @media screen and (max-width:992px) {
     .company-header{
