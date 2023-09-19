@@ -1,28 +1,38 @@
-.brightness{
+.carousel-image {
+    height: 500px;
+}
+
+.brightness {
     filter: brightness(50%);
 }
-.courses-button{
+
+.courses-button {
     margin-left: 45%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.course-sections{
+
+.course-sections {
     display: flex;
 }
-.company{
+
+.company {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.company-header{
+
+.company-header {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 @media screen and (max-width:992px) {
-    .company-header{
+    .company-header {
         display: none;
     }
-    .course-sections{
+
+    .course-sections {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
